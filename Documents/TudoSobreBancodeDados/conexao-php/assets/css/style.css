@@ -1,0 +1,57 @@
+header {
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center; /* coloca o formulario no centro*/
+  align-items: center;
+}
+h1 {
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.nome {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 1.5rem;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+input {
+  display: flex;
+  height: 1.5rem;
+  box-shadow: 5px 5px 10px rgb(73, 73, 73);
+  border: none;
+  width: 100%;
+  
+    margin: 0 0 20px; /* margem para baixo do campo para preencher*/
+    padding: 10px 25px; /* dentro do campo de preemchimento de dados */
+    width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.cadastrar {
+  background-color: rgb(245, 155, 21);
+  margin: 10px auto;
+  color: white;
+  font-weight: 800;
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(73, 73, 73);
+  transition: all 0.5s;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.cadastrar:hover {
+  background-color: rgb(255, 175, 1);
+  transform: scale(1.2);
+  cursor: pointer;
+}
