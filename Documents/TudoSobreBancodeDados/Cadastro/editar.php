@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $encontrar = new Cadastro($mysql);
     $encontrar->editar($_POST['id'], $_POST['nome'], $_POST['usuario'], $_POST['email'], $_POST['senha']);
 
-    redireciona('index.php');
+    redireciona('cliente.php');
 }
 
 $encontrar = new Cadastro($mysql);

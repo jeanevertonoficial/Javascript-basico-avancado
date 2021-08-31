@@ -16,7 +16,6 @@
             <ul>
                 <a href="index.php"><li>Inicio</li></a>
                 <a href="cliente.php"><li>Clientes</li></a>
-                <a href="editar.php"><li>Editar</li></a>
             </ul>
         </div>
    
