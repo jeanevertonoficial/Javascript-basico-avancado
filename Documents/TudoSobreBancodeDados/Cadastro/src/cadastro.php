@@ -44,7 +44,7 @@ class Cadastro
     public function editar(string $id, string $nome, string $usuario, string $email, string $senha): void
     {
         $editaCliente = $this->mysql->prepare('UPDATE UsuarioCliente SET nome = ?, usuario = ?, email = ?, senha = ? WHERE id = ?');
-        $editaCliente->bind_param('sssss', $id, $nome, $usuario, $email, $senha);
+        $editaCliente->bind_param('sssss', $nome, $usuario, $email, $senha,  $id);
         $editaCliente->execute();
     }
 }
