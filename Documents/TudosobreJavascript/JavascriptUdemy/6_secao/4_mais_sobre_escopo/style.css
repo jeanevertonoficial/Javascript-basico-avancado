@@ -1,0 +1,21 @@
+.principal {
+
+    width: 60%;
+    background-color: bisque;
+
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px black;
+    
+}
+.titulo {
+    width: 50%;
+    
+    margin: auto;
+
+    text-align: center;
+    font-family: cursive;
+
+    box-shadow: 5px 5px 15px black;
+    border-bottom: 10px solid black;
+
+}

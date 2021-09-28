@@ -1,0 +1,180 @@
+main {
+    min-height: 100vh;
+}
+.principal {
+
+    width: 60%;
+   
+    
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px black;
+    
+    
+}
+.titulo {
+    width: auto;
+    
+    margin: auto;
+    
+    padding: 1rem;
+
+    text-align: center;
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 1.75rem;
+
+    box-shadow: 5px 5px 15px black;
+    border-bottom: 20px solid black;
+
+    position: fixed;
+
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+main{
+    padding-top: 5rem;
+    background-image: url(../BG.png) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo {
+    width: auto;
+    margin: auto;
+}
+
+a, ul{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px black;
+    padding: 0.75rem;
+    border-radius: 12px 0 12px 0 ;
+
+}
+
+a:hover {
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    
+    border-radius: 0 0 12px 12px;
+}
+
+
+.principal {
+    margin-top: 1rem;
+}
+
+.contato-sobre {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.desenvolvido {
+    font-size: 0.55rem;
+    text-align: center;
+    padding: 10px 0;
+}
+footer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+div a {
+    color: inherit;
+    font-family: inherit;
+    box-shadow: inherit;
+   font-size: 0.75rem;
+}
+div a:hover {
+    background-color: inherit;
+    color: lemonchiffon;
+}
+
+.estudo {
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 1.5rem;
+    line-height: 1.50rem;
+    background-color: #ffffffad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: rgb(48, 48, 48);
+    
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 766px) {
+    .titulo, .conteudo, ul {
+        width: auto;
+        box-sizing: border-box;
+    }
+    .titulo {
+      border-radius: inherit;
+      width: 100%;
+    }
+    header{ 
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    section.conteudo {
+        padding-top: 0rem;
+    }
+    .estudo {
+        width: 80%;
+        padding: 15px;
+        margin: auto;
+        line-height: 1.50rem;
+        background-color: rgba(219, 219, 219, 0.534);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.75rem;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    h3{
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .contato-sobre {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .desenvolvido {
+        font-size: 0.55rem;
+        text-align: center;
+        padding: 10px 0;
+    }
+    footer {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 0, 0);
+    }
+    div a {
+        color: inherit;
+        font-family: inherit;
+        box-shadow: inherit;
+       font-size: 0.75rem;
+    }
+}
